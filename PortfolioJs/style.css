@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100vh;
+
+}
+
+header {
+
+    background-color: #343a40;
+    color: whitesmoke;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    top: 0;
+    z-index: 999;
+
+}
+
+.mj {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: whitesmoke;
+    position: absolute;
+    top: 3.2rem;
+    left: 6rem;
+    z-index: 1;
+
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    background-image: url('images/mj.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    border: 2px solid #e2dcdc;
+    box-shadow: 0 0 30px rgb(151, 140, 140);
+
+}
+
+
+nav ul {
+
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.nav-links a {
+
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 60px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#intro {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro-content p {
+    font-size: 1.5em;
+    color: #555;
+}
+
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+
+}
+
+.project-card p {
+    font-size: 1.1rem;
+
+}
+
+.project-card a {
+    text-decoration: none;
+    color: rgb(23, 78, 179);
+
+}
+
+
+
+.skill-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.skill h3 {
+    font-size: 1.5rem;
+}
+
+.skill-bar {
+    width: 250px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.html {
+    background-color: #f44336;
+}
+
+.css {
+    background-color: #264de4;
+}
+
+.js {
+    background-color: #f5f10c;
+}
+
+.react {
+    background-color: #2198b6;
+}
+
+.bootstrap {
+    background-color: #7247c2d2;
+}
+
+.node {
+    background-color: #61a52a;
+}
+
+.express {
+    background-color: coral;
+}
+
+.mongo {
+    background-color: green;
+}
+
+.tailwind {
+    background-color: #2196f3;
+}
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}
